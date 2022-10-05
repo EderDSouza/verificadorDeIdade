@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Css/stylo.css">
+    <title>Verificador de Idade</title>
 </head>
 <body>
-    
+    <header><h1>Verifique Sua Idade Pelo Ano</h1></header>
+    <section>
+        <div id="formulario">
+            <p>Ano do nascimento <input id="ano" type="number"></p>
+            <p>Sexo:
+                <input id="masculino" value="mas" name="sexo" type="radio" checked> 
+                <label for="masculino">Masculino</label>
+                <input id="feminino" value="fem" name="sexo" type="radio">
+                <label for="feminino">Feminino</label>
+            
+            </p>
+            <p><input id="botao" type="button" value="verificar" onclick="verificar()"></p>
+
+        </div>
+        <div id="resultado">
+        Verificando...
+
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
