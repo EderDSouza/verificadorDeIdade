@@ -47,18 +47,12 @@ function verificar(){
         }
     }
     
-    res.style.textAlingn="center";
-    res.innerHTML = `Detectamos um Pessoa do genero ${genero} e tem ${idade} anos, completado ou para completar. `
-    res.appendChild(img);
-  }
-
-
-
-   
-   
-  
-
-
-   // res.innerHTML= `Sua idade é ${teste} anos`
     
-}
+    res.innerHTML = `<h3 style=margin:45px>Detectamos um Pessoa do genero ${genero} e tem ${idade} anos.</h3> `;
+    res.appendChild(img);
+    img.style.marginLeft="100px";
+    
+  };
+
+    
+};
