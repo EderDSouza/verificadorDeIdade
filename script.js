@@ -48,7 +48,7 @@ function verificar(){
     }
     
     
-    res.innerHTML = `<h4 style=margin:40px>Detectamos um Pessoa do genero ${genero} e tem ${idade} anos.</h4> `;
+    res.innerHTML = `<h4 style=margin:40px>Detectamos um Pessoa do gênero ${genero} e tem ${idade} anos.</h4> `;
     res.appendChild(img);
     img.style.marginLeft="20%";
     
