@@ -15,7 +15,22 @@
 #
 #
 <div>
-    <img src="image/fotocelular.png" >
-    <img src="image/foto-m.png">
-    <img src="image/foto-redme-h.png" >
+    <table>
+    <tr>
+        <td>
+            <p>#Tela Celular</p><br>
+                <img style="width:200px" src="image/fotocelular.png" >
+        </td>
+        <td>
+            <img style="width:200px" src="image/foto-m.png">
+        </td>
+        <td>
+            <p>#Tela Desktop</p><br>
+            <img style="width:200px" src="image/foto-redme-h.png" >
+        </td>
+    </tr>
+    </table>
+</div>
+<div>
+    <img src="image/video.gif">
 </div>
