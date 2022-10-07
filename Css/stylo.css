@@ -1,11 +1,15 @@
 @charset "UTF-8";
 
+
+
+
 body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(255, 249, 192);
     font-size: 1.2em;
+    height: 800px;
     
 }
 header{
@@ -44,9 +48,60 @@ input[type=button]{
 }
 footer{
    text-align: center; 
+   margin-top: 20px;
 }
 strong{
     
     font-size: 1.5em;
 }
 
+
+@media screen and (max-width:600px){
+
+    body{
+        background: rgba(255, 127, 80, 0.842);
+        width: 100%;
+    
+    }
+    header > h1{
+    text-align: center;
+    color: aliceblue;
+    margin: 10px;
+
+    }
+    section{
+        display: block;
+        width: 400px;
+        height: auto;
+        margin: auto;
+        border-radius: 20px;
+        
+    }
+
+    input[type=button]{
+        width: 200px;
+        margin-left: 40px;
+        
+    }
+
+    div{
+        width: 100%;
+        
+    }
+    div > p{
+        margin: auto;
+    }
+
+    div#resultado{
+        margin: 0;
+    
+    }
+
+    input{
+        width: 30%;
+    }
+        
+  
+
+
+}
